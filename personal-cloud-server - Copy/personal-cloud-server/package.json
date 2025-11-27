@@ -1,0 +1,17 @@
+{
+  "name": "personal-cloud-server",
+  "version": "1.0.0",
+  "main": "server-local.js",
+  "scripts": {
+    "start": "node server-local.js",
+    "dev": "node server-local.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.33.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "formidable": "^3.5.4",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
